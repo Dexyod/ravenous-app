@@ -36,6 +36,10 @@ npm start or yarn start
 
 The Ravenous application should now be open and running on the default browser.
 
+## Images
+
+![Ravenous App](public/ravenous.png)
+
 ## Built With
 
 - [ReactJS](https://reactjs.org/) - A JavaScript Framework
