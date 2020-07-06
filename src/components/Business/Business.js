@@ -8,7 +8,9 @@ class Business extends React.Component {
         <div className="image-container">
           <img src={this.props.business.imageSrc} alt="" />
         </div>
-        <h2>{this.props.business.name}</h2>
+        <a href={this.props.business.url}>
+          <h2>{this.props.business.name}</h2>
+        </a>
         <div className="Business-information">
           <div className="Business-address">
             <p>{this.props.business.address}y</p>
